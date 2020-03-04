@@ -1,0 +1,7 @@
+file target/thumbv7em-none-eabihf/debug/examples/app
+target remote 10.0.2.2:3333
+monitor arm semihosting enable
+monitor reset init
+load
+tbreak start
+continue

@@ -1,0 +1,15 @@
+[package]
+authors = [
+	"Bjorn Paulstrom <bjornpaulstrom@hotmail.se>",
+]
+description = "hal"
+
+
+license = "MIT OR Apache-2.0"
+name = "hal"
+
+version = "0.1.0"
+
+[dependencies]
+stm32f401 = { path = "../stm32f401" }
+hal-core = { path = "../hal-core" }

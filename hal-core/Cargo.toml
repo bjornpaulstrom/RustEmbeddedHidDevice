@@ -1,0 +1,16 @@
+[package]
+authors = [
+	"Per Lindgren <per.lindgren@ltu.se>",
+]
+description = "Generic HAL (Hardware Abstraction Layer)"
+
+
+license = "MIT OR Apache-2.0"
+name = "hal-core"
+
+version = "0.1.0"
+
+[dependencies]
+volatile-register = "0.1.2"
+#volatile-cell = { path = "../volatile-cell" }
+#interpolate_idents = "*"

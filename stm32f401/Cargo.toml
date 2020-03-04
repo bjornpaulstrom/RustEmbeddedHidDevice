@@ -1,0 +1,16 @@
+[package]
+authors = [
+	"Per Lindgren <per.lindgren@ltu.se>",
+]
+description = "stm32f401"
+
+
+license = "MIT OR Apache-2.0"
+name = "stm32f401"
+
+version = "0.1.0"
+
+[dependencies]
+volatile-register = "0.1.2"
+#volatile-cell = { path = "../volatile-cell" }
+#interpolate_idents = "*"
